@@ -206,7 +206,9 @@ public class Test {
 		return len;
 	}
 	
-	
+	/**
+	 * 연습문제 12
+	 */
 	public static void main(String[] args) {
 		System.out.println("최대값: " + searchMax(5,99,2,6));
 		System.out.println("3개 중 최소값: " + searchMin(99,2,6));
