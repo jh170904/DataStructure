@@ -15,5 +15,7 @@ public class Digits {
 		}while(n < 10 || n >99);//단축구조
 		
 		System.out.printf("변수 n의 값은 %d가 되었다!!\n", n);
+		
+		sc.close();
 	}
 }
