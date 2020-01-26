@@ -29,5 +29,6 @@ public class MaxOfArr {
 		}
 		
 		System.out.println("최대값:"+maxOf(height));
+		sc.close();
 	}
 }

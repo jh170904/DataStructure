@@ -1,7 +1,6 @@
 package com.doit.ds.chapter02;
 
 import java.util.Scanner;
-import java.util.Stack;
 
 public class CardConvRev {
 

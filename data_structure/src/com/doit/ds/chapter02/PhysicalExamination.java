@@ -84,7 +84,7 @@ public class PhysicalExamination {
 					System.out.print("\t");
 				}
 			}
-			
+			sc.close();
 		}
 	}
 }
