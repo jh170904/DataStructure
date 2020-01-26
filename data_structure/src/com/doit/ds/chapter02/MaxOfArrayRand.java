@@ -19,8 +19,11 @@ public class MaxOfArrayRand {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("키의 최대값을 구하기");
-		System.out.print("사람 수: ");
-		int num = sc.nextInt();
+		//System.out.print("사람 수: ");
+		//int num = sc.nextInt();
+		
+		// 연습문제 Q1 : 사람수도 난수로 생성
+		int num = rd.nextInt(10); 
 		
 		int height[] = new int[num];
 		
@@ -29,7 +32,7 @@ public class MaxOfArrayRand {
 			System.out.println("height["+i+"]:"+height[i]);
 		}
 		
-
 		System.out.println("최대값:"+maxOf(height));
+		sc.close();
 	}
 }
