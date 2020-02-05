@@ -2,7 +2,7 @@ package com.doit.ds.chapter03;
 
 public class Test {
 	/**
-	 * 연습문제 Q3
+	 * 연습문제 Q3 key와 일치한 요솟수의 인덱스를 반환하는 메소드
 	 */
 	static int searchIdx(int[] a, int n, int key, int[] idx) {
 		int seq = 0;
@@ -15,7 +15,7 @@ public class Test {
 	}
 	
 	/**
-	 * 연습문제 Q4
+	 * 연습문제 Q4 이진검색의 과정을 자세히 출력하는 메소드
 	 */
 	static int binSearchPrint(int[] arr, int n, int key) {
 		int pl = 0;			// 검색범위 첫번째 인덱스
@@ -57,7 +57,7 @@ public class Test {
 	}
 	
 	/**
-	 * 연습문제 Q5
+	 * 연습문제 Q5 이진검색중 같은값을 같는 요소가 있을 경우 가장 앞에 요소를 반환.
 	 */
 	static int binSearchX(int[] arr, int n, int key) {
 		int pl = 0;			// 검색범위 첫번째 인덱스

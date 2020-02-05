@@ -16,7 +16,7 @@ public class SeqSearchSen {
 	}
 
 	/**
-	 * 연습문제 Q1
+	 * 연습문제 Q1 While문이 아닌 For문으로 메소드를 수정하기
 	 */
 	static int seqSearchSenFor(int[] a, int n, int key) {
 		int i;
@@ -30,7 +30,7 @@ public class SeqSearchSen {
 	}
 	
 	/**
-	 * 연습문제 Q2
+	 * 연습문제 Q2 선형검색의 스캐닝 과정을 상세히 출력하는 메소드
 	 */
 	static int seqSearchSenPrint(int[] a, int n, int key) {
 		int i = 0;

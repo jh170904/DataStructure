@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class BinarySearchTester {
 	
 	/**
-	 * 연습문제 Q6
+	 * 연습문제 Q6 : 검색에 실패하면 삽입 포인트의 값을 출력하는 프로그램
 	 */
 	static int binSearch(int[] arr, int n, int key) {
 		int pl = 0;			// 검색범위 첫번째 인덱스
