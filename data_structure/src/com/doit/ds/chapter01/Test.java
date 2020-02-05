@@ -386,6 +386,11 @@ public class Test {
 		sumTable();
 		printSquare();
 		
+		triangleLU();
+		triangleRB();
+		triangleRU();
+		spira();
+		npira();
 		
 		SCANNER.close();
 	}
