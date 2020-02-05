@@ -8,7 +8,7 @@ public class Test {
 	static final Scanner sc = new Scanner(System.in);
 
 	/**
-	 * 연습문제 Q2
+	 * 연습문제 Q2 배열 요소를 역순으로 정렬하는 과정을 하나하나 나타내는 메소드
 	 */ 
 	static class ReverseAndPrintArray {
 
@@ -34,6 +34,7 @@ public class Test {
 			System.out.println("역순 정렬을 마쳤습니다.");
 		}
 	}
+	
 	/**
 	 * 연습문제 Q3
 	 * 배열의 모든 요소의 합계를 반환하는 메소드
