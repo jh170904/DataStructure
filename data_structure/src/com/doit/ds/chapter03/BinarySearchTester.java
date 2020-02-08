@@ -18,18 +18,17 @@ public class BinarySearchTester {
 			if (arr[pc] == key) {
 				return pc;			// 검색 성공
 			} else if(arr[pc]<key) {
-				pr = pc -1;//검색범위를 첫번째인덱스~중앙값으로 좁힘
+				pl = pc+1;//검색범위를 중앙~뒤로 좁힘
 			} else {
-				pl = pc;
+				pr = pc-1;//검색범위를 앞~중앙로 좁힘
 			}
+						
 		} while (pl <= pr);
-		
-		System.out.println(pc);
-		
+
 		if(key > arr[pc])
-			return -1*pc;
-		else 
-			return -1*(pc-1);
+			++pc;
+		
+		return ++pc * -1;
 	}
 	
 	
@@ -57,7 +56,7 @@ public class BinarySearchTester {
 		int idx = binSearch(x, num, key);
 		
 		if (idx < 0) {
-			System.out.println("검색 결과 일치하는 요소가 없습니다.");
+			System.out.printf("검색에 실패했습니다. %d의 삽입포인트는 x[%d]에 있습니다.\n", key, idx);
 		} else {
 			System.out.printf("%d는 x[%d]에 있습니다.\n", key, idx);
 		}
