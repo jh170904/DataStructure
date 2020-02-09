@@ -4,8 +4,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
-
 public class PhysExamSearch {
 
 	static class PhyscData{
@@ -45,13 +43,13 @@ public class PhysExamSearch {
 		public static void main(String[] args) {
 			Scanner sc = new Scanner(System.in);
 			PhyscData[] x = {
-				new PhyscData("가가가", 162, 0.9d),
-				new PhyscData("나나나", 183, 0.4d),
-				new PhyscData("다다다", 175, 0.5d),
+				new PhyscData("가가가", 162, 1.9d),
+				new PhyscData("나나나", 163, 1.8d),
+				new PhyscData("다다다", 175, 1.5d),
 				new PhyscData("라라라", 179, 1.5d),
-				new PhyscData("마마마", 188, 0.4d),
-				new PhyscData("바바바", 194, 1.2d),
-				new PhyscData("사사사", 159, 0.8d)
+				new PhyscData("마마마", 188, 1.0d),
+				new PhyscData("바바바", 194, 0.9d),
+				new PhyscData("사사사", 199, 0.8d)
 			};
 			int idx = 0;
 			
