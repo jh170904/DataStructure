@@ -49,11 +49,11 @@ public class Solution01 {
 	  }
 
 	    //정렬
-	    public List sortValue(HashMap map){
-	        List<Integer> list = new ArrayList();
+	    public List<Integer> sortValue(HashMap<Integer, Integer> map){
+	        List<Integer> list = new ArrayList<Integer>();
 	        list.addAll(map.keySet());
 
-	        Collections.sort(list,new Comparator(){
+	        Collections.sort(list,new Comparator<Object>(){
 	            public int compare(Object ob1, Object ob2){
 	                Object val1 = map.get(ob1);
 	                Object val2 = map.get(ob2);               
